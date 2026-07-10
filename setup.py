@@ -8,6 +8,7 @@ setup(
     description="A fake news detection package using NLP and deep learning",
     long_description=open("README.md", encoding="utf-8").read(),
     long_description_content_type="text/markdown",
+    url="https://github.com/NisargBabele/Article-Classifier",
     packages=find_packages(include=["src", "src.*"]),  
     python_requires=">=3.9",                  
     install_requires=[                          
